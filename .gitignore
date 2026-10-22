@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+dist
+.env
+.env.local
+
+.vercel
+.env.*
+!.env.example
+.vite-cache/
+.claude/
+*.log
+*.zip

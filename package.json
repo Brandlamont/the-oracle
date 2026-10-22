@@ -1,0 +1,24 @@
+{
+  "name": "mtg-oracle-deck-helper",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner",
+    "dev:stable": "node ./scripts/dev-server.mjs",
+    "check:roles": "node ./scripts/check-role-classifier.mjs",
+    "check:win-plans": "node ./scripts/check-win-plan-classifier.mjs",
+    "check:bracket": "node ./scripts/check-bracket-profile.mjs",
+    "audit:full-decks": "node ./scripts/check-full-deck-tuning.mjs",
+    "build": "vite build",
+    "serve:stable": "node ./scripts/preview-server.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest",
+    "vite": "^8.2.1"
+  }
+}

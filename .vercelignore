@@ -1,0 +1,13 @@
+node_modules
+dist
+.vite-cache
+.vercel
+pixel-art
+pixel-art.zip
+presentation
+*.log
+*.err.log
+*.out.log
+vite-dev.err.log
+vite-dev.out.log
+
